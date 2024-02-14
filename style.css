@@ -256,3 +256,31 @@ input:checked + .slider::before {
   font-size: 30px;
   margin-right: 5px;
 }
+
+@media screen and (max-width: 1000px) {
+
+  #nav{
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  .theme-switch-wrapper{
+    font-size: .5rem;
+  }
+
+  .theme-switch input {
+    width: 50px;
+    height: 20px;
+  }
+
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-container{
+    margin-bottom: 10px
+  };
+}
