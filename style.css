@@ -288,5 +288,8 @@ input:checked + .slider::before {
     display: flex;
     flex-direction: column;
   }
+  .text-box{
+    color: #ffffff;
+  }
 
 }
