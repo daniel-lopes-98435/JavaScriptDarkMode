@@ -288,7 +288,7 @@ input:checked + .slider::before {
     display: flex;
     flex-direction: column;
   }
-  .text-box{
+  .text-box p{
     color: #ffffff;
   }
 
